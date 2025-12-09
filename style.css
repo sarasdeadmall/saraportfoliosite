@@ -1,0 +1,497 @@
+body {
+    margin: 0;
+    background-image: url("images/windowsxpbackground.webp");
+    background-size:cover;
+}
+
+/* Header Stuff! */
+
+header {
+    background-image: url("images/portfolioheader.png");
+    background-size: cover;
+    background-position: bottom;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    font-family: 'Franklin Gothic Medium', Arial, sans-serif;
+}
+
+.headername {
+    font-size: 32px;
+    margin-top: 35px;
+    margin-bottom: -10px;
+    font-weight: 400;
+}
+
+.headeronlinename {
+    font-size: 64px;
+    margin: 0;
+}
+
+.headeronlinename span {
+    color: #EA5024;
+}
+
+.headerprofessional {
+    font-size: 45px;
+    margin-top: -10px;
+}
+
+.proficienttext {
+    font-weight: 400;
+    margin-bottom: 0px;
+    margin-top: -5px;
+}
+
+.proficienciesimg img {
+    width: 72px;
+    height: auto;
+    margin: 5px 10px;
+    vertical-align: middle;
+}
+
+.headerright {
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+/* Introduction Stuff */
+
+.introduction {
+    display: flex;
+    flex-direction: row;
+}
+
+.saraphoto {
+    padding-top: 90px;
+    padding-left: 120px;
+    width: 1100px;
+}
+
+.title-bar-controls button {
+    min-width: 35px;
+    min-height: 35px;
+}
+
+.title-bar {
+    height: 50px;
+}
+
+.title-bar-text {
+    font-size: 21px;
+    margin-top: 1px;
+    flex-grow: 1;
+}
+
+.title-bar-img {
+    width: 35px;
+    margin-left: 5px;
+    height: auto;
+}
+
+.window-body p {
+    font-size: 50px;
+    text-align: center;
+}
+
+.window {
+    width: 900px;
+    height: 870px;
+    margin-top: 130px;
+    margin-left: 200px;
+}
+
+/* For Art Title */
+
+.titleart .window {
+    width: 300px;
+    height: 220px;
+    margin-top: 10px;
+    margin-left: 100px;
+}
+
+.titleart p {
+    font-size: 120px;
+    text-align:left;
+    margin-top: 10px;
+}
+
+/* Art Section */
+
+.artsection {
+    display: flex;
+    flex-direction:row;
+}
+
+.artsection .goforitjose .window {
+    width: 906px;
+    height: 1375px;
+    margin-top: 10px;
+    margin-left: 200px;
+}
+
+.goforitjose .window-body img {
+    width: 900px;
+    margin-top: -8px;
+    margin-left: -5px;
+}
+
+.artsection .memories .window {
+    width: 1206px;
+    height: 1271px;
+    margin-top: -150px;
+    margin-left: -40px;
+}
+
+.memories .window-body img {
+    width: 1200px;
+    height: auto;
+    margin-top: -8px;
+    margin-left: -5px;
+}
+
+.artsectiontwo .outofoptions .window {
+    width: 1206px;
+    height: 853px;
+    margin-top: -260px;
+    margin-left: 1100px;
+}
+
+.outofoptions .window-body img {
+    width: 1200px;
+    height: auto;
+    margin-top: -8px;
+    margin-left: -5px;
+}
+
+/* For Graphic Design Title */
+
+.titlegraphicdesign .window {
+    width: 870px;
+    height: 220px;
+    margin-top: 10px;
+    margin-left: 100px;
+}
+
+.titlegraphicdesign p {
+    font-size: 120px;
+    text-align:left;
+    margin-top: 10px;
+}
+
+/* Graphic Design Section */
+
+.graphicdesignsection {
+    display: flex;
+    flex-direction:row;
+}
+
+.graphicdesignsection .grievancesanddeadmalls .window {
+    width: 1156px;
+    height: 1207px;
+    margin-top: 100px;
+    margin-left: 40px;
+}
+
+.grievancesanddeadmalls .window-body img {
+    width: 1150px;
+    margin-top: -8px;
+    margin-left: -5px;
+}
+
+.graphicdesignsection .akira .window {
+    width: 1106px;
+    height: 1664px;
+    margin-top: -160px;
+    margin-left: -40px;
+}
+
+.akira .window-body img {
+    width: 1100px;
+    margin-top: -8px;
+    margin-left: -5px;
+}
+
+.graphicdesignsectiontwo .gamblehousetour .window {
+    width: 1506px;
+    height: 1117px;
+    margin-top: 10px;
+    margin-left: 20px;
+}
+
+.gamblehousetour .window-body img {
+    width: 1500px;
+    height: auto;
+    margin-top: -8px;
+    margin-left: -5px;
+}
+
+/* For Videomaking Title */
+
+.videomakingdesign .window {
+    width: 730px;
+    height: 220px;
+    margin-top: 10px;
+    margin-left: 100px;
+}
+
+.videomakingdesign p {
+    font-size: 120px;
+    text-align:left;
+    margin-top: 10px;
+}
+
+/* Videomaking Sections */
+
+.videomakingsectionright .videoright .window {
+    width: 1306px;
+    height: 783px;
+    margin-left: 1100px;
+    margin-bottom: 100px;
+}
+
+.videoright .window-body img {
+    width: 1300px;
+    height: auto;
+    margin-top: -8px;
+    margin-left: -5px;
+}
+
+.videomakingsectionleft .videoleft .window {
+    width: 1306px;
+    height: 788px;
+    margin-top: 100px;
+    margin-left: 100px;
+}
+
+.videoleft .window-body img {
+    width: 1300px;
+    height: auto;
+    margin-top: -8px;
+    margin-left: -5px;
+}
+
+/* Footer Section */
+.startfooter {
+    display: flex;
+    align-items: center;
+    height: 70px;
+    background: linear-gradient(#1e7be8, #0b5fcc);
+}
+
+.start {
+    background: linear-gradient(#0ba504, #066a02);
+    color: white;
+    font-size: 28px;
+    font-style: italic;
+    padding: 19px 48px;
+}
+
+.divisionline {
+    flex: 1;
+}
+
+.footericons img {
+    height: 48px;
+    width: auto;
+    margin-left: 12px;
+    cursor: pointer;
+    padding: 0 10px;
+}
+
+.footericons img:hover {
+    transform: scale(1.05);
+}
+
+/* Responsive Stuff (This is gonna suck.) */
+
+@media (max-width: 600px) {
+
+    body {
+        background-size: cover;
+    }
+
+    /* Header Section */
+
+    header {
+        flex-direction: column;
+        text-align: center;
+        padding: 10px;
+        background-position: center;
+    }
+
+    .headername {
+        font-size: 20px;
+    }
+
+    .headeronlinename {
+        font-size: 36px;
+    }
+
+    .headerprofessional {
+        font-size: 24px;
+    }
+
+    .proficienttext {
+        font-size: 14px;
+    }
+
+    .proficienciesimg img {
+        width: 45px;
+        margin: 5px;
+    }
+
+    .headerright {
+        margin: 10px 0;
+    }
+
+
+    /* Introduction Section */
+
+    .introduction {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .saraphoto {
+        padding: 20px 0;
+        width: 100%;
+        padding-left: 0;
+        padding-top: 40px;
+    }
+
+    .saraphoto img {
+        width: 90%;
+        height: auto;
+    }
+
+    .window {
+        width: 100% !important;
+        height: auto !important;
+        margin: 20px 0 !important;
+    }
+
+    .title-bar {
+        height: 40px;
+    }
+
+    .title-bar-text {
+        font-size: 16px;
+    }
+
+    .window-body p {
+        font-size: 26px !important;
+        padding: 10px;
+    }
+
+    .window-body img {
+        width: 100% !important;
+        height: auto !important;
+        margin: 0 !important;
+    }
+
+    /* Titles */
+
+    .titleart p {
+        font-size: 48px !important;
+        text-align: center !important;
+    }
+    .titlegraphicdesign p {
+        font-size: 48px !important;
+        text-align: center !important;
+    }
+    .videomakingdesign p {
+        font-size: 48px !important;
+        text-align: center !important;
+    }
+
+    /* Art Section */
+
+    .artsection{
+        flex-direction: column;
+        align-items: center;
+        margin: 0;
+        padding: 0;
+    }
+    .artsectiontwo{
+        flex-direction: column;
+        align-items: center;
+        margin: 0;
+        padding: 0;
+    }
+    .artsection .window{
+        width: 100% !important;
+        margin: 20px 0 !important;
+        height: auto !important;
+    }
+    .artsectiontwo .window{
+        width: 100% !important;
+        margin: 20px 0 !important;
+        height: auto !important;
+    }
+
+    /* Graphic Design Section */
+
+    .graphicdesignsection{
+        flex-direction: column;
+        align-items: center;
+        margin: 0;
+        padding: 0;
+    }
+    .graphicdesignsectiontwo{
+        flex-direction: column;
+        align-items: center;
+        margin: 0;
+        padding: 0;
+    }
+    .graphicdesignsection .window {
+        width: 100% !important;
+        margin: 20px 0 !important;
+        height: auto !important;
+    }
+    .graphicdesignsectiontwo .window{
+        width: 100% !important;
+        margin: 20px 0 !important;
+        height: auto !important;
+    }
+
+    /* Video Making Section */
+    .videomakingsectionleft {
+        flex-direction: column;
+        align-items: center;
+        margin: 0;
+        padding: 0;
+    }
+    .videomakingsectionright {
+        flex-direction: column;
+        align-items: center;
+        margin: 0;
+        padding: 0;
+    }
+    .videomakingsectionleft .window{
+        width: 100% !important;
+        margin: 20px 0 !important;
+        height: auto !important;
+    }
+    .videomakingsectionright .window {
+        width: 100% !important;
+        margin: 20px 0 !important;
+        height: auto !important;
+    }
+
+    /* Footer Content */
+    .startfooter {
+        flex-direction: row;
+    }
+
+    .start {
+        font-size: 22px;
+        padding: 22px 60px;
+    }
+
+    .footericons img {
+        height: 32px;
+        padding: 0 5px;
+    }
+}
