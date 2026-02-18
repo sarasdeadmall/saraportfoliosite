@@ -509,3 +509,10 @@ header {
         padding: 0 5px;
     }
 }
+
+/* Stuff for Macbooks */
+@media (max-width: 1429px) {
+html {
+  zoom: 0.55;
+}
+}
