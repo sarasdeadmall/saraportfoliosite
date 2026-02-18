@@ -165,12 +165,26 @@ header {
     margin-left: -5px;
 }
 
+.artsectiontwo .deadmallboxer .window {
+    width: 706px;
+    height: 1450px;
+    margin-top: -590px;
+    margin-left: 300px;
+}
+
+.deadmallboxer .window-body img {
+    width: 700px;
+    height: auto;
+    margin-top: -8px;
+    margin-left: -5px;
+}
+
 /* For Graphic Design Title */
 
 .titlegraphicdesign .window {
     width: 870px;
     height: 220px;
-    margin-top: 10px;
+    margin-top: 50px;
     margin-left: 100px;
 }
 
@@ -215,7 +229,7 @@ header {
 
 .graphicdesignsectiontwo .gamblehousetour .window {
     width: 1506px;
-    height: 1117px;
+    height: 901px;
     margin-top: 10px;
     margin-left: 20px;
 }
