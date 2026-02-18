@@ -512,7 +512,7 @@ header {
 
 /* Stuff for Macbooks */
 @media (max-width: 1429px) {
-html {
+body {
   zoom: 0.55;
 }
 }
